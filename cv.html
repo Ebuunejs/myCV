@@ -16,7 +16,7 @@
     <table>
         <tr>
             <td style="background-color:rgb(9, 76, 65);" width = 350 align="center">
-                <div id="details" aligne="top">
+                <div id="details">
                     <br>
                     <img src="assets/images/photo.webp" alt="Nje natyre e bukur"/>
                     <hr width="10">
@@ -35,19 +35,19 @@
                     <h3 style="color: white;">Skills:</h3>
                     <label for="projectsmanagementskills" style="color: white;">Project Management Skills</label>
                     <br>
-                    <progress id="projectsmanagementskills" color= "orange" max="100" value="70"></progress>
+                    <progress id="projectsmanagementskills" max="100" value="70"></progress>
                     <br>
                     <label for="developmentskills" style="color: white;">Developments Skills</label>
                     <br>
-                    <progress id="developmentskills" color= "orange" max="100" value="99"></progress>
+                    <progress id="developmentskills" max="100" value="99"></progress>
                     <br>
                     <label for="industryknowledge" style="color: white;">Industry Knowledge</label>
                     <br>
-                    <progress id="industryknowledge" color= "orange" max="100" value="80"></progress>
+                    <progress id="industryknowledge" max="100" value="80"></progress>
                     <br>
                     <label for="innoproblemsolving" style="color: white;">Innovative Problem Solving</label>
                     <br>
-                    <progress id="innoproblemsolving" color= "orange" max="100" value="100"></progress>
+                    <progress id="innoproblemsolving" max="100" value="100"></progress>
                 </div>
             </td>
 
@@ -167,7 +167,7 @@
                             <td width="250">
                                 <b>Programming languages</b>
                             </td> 
-                            <td colspan="5" align="top">
+                            <td>
                                 <ul>
                                     <li>
                                         Pascal
@@ -191,7 +191,7 @@
                             <td width="250">
                                 <b>Mikrocontroller</b>
                             </td> 
-                            <td colspan="5" align="top">
+                            <td>
                                 <ul>
                                     <li>
                                         Spartan II, Xilinx (FPGA)
@@ -215,7 +215,7 @@
                             <td width="250">
                                 <b>Microsoft Office</b>
                             </td> 
-                            <td colspan="5">
+                            <td>
                                 <ul>
                                     <li>
                                         Word
@@ -251,7 +251,7 @@
                             <b>Erhan Elmaz, SEO-Manager at QR-Konzept</b>
                         </dt>
                         <dd>
-                            Zürich, +49 1521 1511141, info@qr-konzept.de
+                            Berlin (DE), +49 1521 1511141, info@qr-konzept.de
                         </dd>
                     </dl>
                 </div>
@@ -264,13 +264,14 @@
         
     <fieldset>
         <legend>Interessed, contact me:</legend>
-        <input type="text" placeholder="Enter your name" />
+        <input type="text" name="name" id="name" placeholder="Enter your name" />
         <br><br>
-        <input type="tel" placeholder="Phone number" />
+        <input type="tel" name="tel" id="tel" placeholder="Phone number" />
         <br><br>
-        <input type="email" placeholder="john@smith.com" />
+        <input type="email" name="email" id="email" placeholder="xxx@gmail.com" />
         <br><br>
-        <input type="submit" value="Send" /> 
+        <input type="submit" name="button_sub" value="Send" /> 
+        <input type="reset" value="Clear"/>
     </fieldset>
 </body>
 </html>
