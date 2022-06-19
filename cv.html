@@ -5,52 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV </title>
-   <style>
-        img {
-                border-radius: 50%;
-            }
-
-   </style>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <table border="1">
+    <table align="center">
         <tr>
-            <td bgcolor="#094641" width = "350" valign="top" align="center">
+            <td class="about"  width = "350" valign="top" align="center">
                 <div id="details">
                     <br>
-                    <img src="assets/images/photo.webp" alt="Nje natyre e bukur"/>
-                    <hr width="10">
-                    <h2 style="color: white;"> Fadil Ibrahimi</h2>
+                    <img src="assets/images/photo.webp" alt="Photo of Fadil"/>
+                    <br> 
+                    <hr class="about" width="10">
+                    <h2 class="about"> Fadil Ibrahimi</h2>
 
-                    <h3 style="color: white;">Details:</h3>
-                    <p style="color: white;">
+                    <h3 class="about">Details:</h3>
+                    <p class="about">
                         Zilstrasse 50<br>
                         9016 St.Gallen (CH)<br>
                         Tel: 079 198 71 04<br><br>
-                        <a style="color: white;" href="mailto:fadil.ibrahimi80@gmail.com">fadil.ibrahimi80@gmail.com</a>
-                    </p>              
-                    <hr width="10">
+                        <a class="about" href="mailto:fadil.ibrahimi80@gmail.com">fadil.ibrahimi80@gmail.com</a>
+                    </p>     
+                    <br>        
+                    <hr class="about" width="10">
                 </div>
                 <div id="skills">
-                    <h3 style="color: white;">Skills:</h3>
-                    <label for="projectsmanagementskills" style="color: white;">Project Management Skills</label>
+                    <h3 class="about"class="about">Skills:</h3>
+                    <label for="projectsmanagementskills" class="about">Project Management Skills</label>
                     <br>
                     <progress id="projectsmanagementskills" max="100" value="70"></progress>
                     <br>
-                    <label for="developmentskills" style="color: white;">Developments Skills</label>
+                    <label for="developmentskills" class="about">Developments Skills</label>
                     <br>
                     <progress id="developmentskills" max="100" value="99"></progress>
                     <br>
-                    <label for="industryknowledge" style="color: white;">Industry Knowledge</label>
+                    <label for="industryknowledge" class="about">Industry Knowledge</label>
                     <br>
                     <progress id="industryknowledge" max="100" value="80"></progress>
                     <br>
-                    <label for="innoproblemsolving" style="color: white;">Innovative Problem Solving</label>
+                    <label for="innoproblemsolving" class="about">Innovative Problem Solving</label>
                     <br>
                     <progress id="innoproblemsolving" max="100" value="100"></progress>
                 </div>
             </td>
-
+            <br> 
             <td width = 50>
             </td>
 
@@ -65,10 +62,11 @@
                         technical and didactic skills under one hat.
                     </p>
                 </div>
+
                 <hr width="80">
                 <div id="employmenthistory">
                     <h3>Employment History</h3>
-                    <table border="1">
+                    <table>
                         <tr>
                             <td width = 100 >
                                 <b>2010-now</b>
@@ -112,10 +110,11 @@
                     </table>
                 
                 </div>
+                <br> 
                 <hr width="80">
                 <div id="education">
                     <h3>Education</h3>
-                   <table border="1">
+                   <table>
                     <tr>
                         <td width = 100 >
                             <b>2022</b>
@@ -159,10 +158,11 @@
                    </table>
                    
                 </div>
+                <br> 
                 <hr width="80">
                 <div id="additionals">
                     <h3>Additional about me</h3>
-                    <table border="1">
+                    <table>
                         <tr>
                             <td width="250" valign="top">
                                 <b>Programming languages</b>
@@ -232,9 +232,31 @@
                                 </ul>
                             </td>
                         </tr>
+                        <tr>
+                            <td width="250"  valign="top">
+                                <b>Language</b>
+                            </td> 
+                            <td>
+                                <ul>
+                                    <li>
+                                        Albanian
+                                    </li>
+                                    <li>
+                                        German
+                                    </li>
+                                    <li>
+                                        English
+                                    </li>
+                                    <li>
+                                        French
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
                         
                     </table>
                 </div>
+                <br> 
                 <hr width="80">
                 <div id="references">
                     <h3>References</h3>
@@ -258,21 +280,38 @@
 
             </td>
         </tr>
-        
+
+        <tr>
+            <td  align="center" width="350">
+                <form>  
+                    <fieldset>
+                        <legend width="1000">Interessed, contact me:</legend>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" />
+                        <br><br>
+                        <input type="tel" name="tel" id="tel" placeholder="Phone number" />
+                        <br><br>
+                        <input type="email" name="email" id="email" placeholder="xxx@gmail.com" />
+                        <br><br>
+                        <input type="submit" name="button_sub" value="Send" /> 
+                        <input type="reset" value="Clear"/>
+                    </fieldset>
+                </form>
+            </td>
+            <td>
+            </td>
+            <td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.3789056156816!2d9.405777215928742!3d47.443552979174214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1e8ee5dc3499%3A0x1aff73473f7868ab!2sZilstrasse%2050%2C%209016%20St.%20Gallen!5e0!3m2!1sde!2sch!4v1655317309653!5m2!1sde!2sch" 
+                width="600" 
+                height="180" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </td>
+        </tr>
        
     </table>
-    <form>  
-        <fieldset>
-            <legend>Interessed, contact me:</legend>
-            <input type="text" name="name" id="name" placeholder="Enter your name" />
-            <br><br>
-            <input type="tel" name="tel" id="tel" placeholder="Phone number" />
-            <br><br>
-            <input type="email" name="email" id="email" placeholder="xxx@gmail.com" />
-            <br><br>
-            <input type="submit" name="button_sub" value="Send" /> 
-            <input type="reset" value="Clear"/>
-        </fieldset>
-    </form>
+  
 </body>
 </html>
